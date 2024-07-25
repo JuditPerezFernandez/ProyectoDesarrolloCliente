@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: ghostwhite;
+    font-size: 16pt;
+    font-weight: bold;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 100px;
+    border: 2px solid black;
+    background-color:blueviolet; 
+}
+header img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+header h1{
+    text-align: end;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+header p{
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+form{
+    display: flex;
+   
+} 
+#formulario{
+    width: 80%;
+    height: 250%;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.grupoCampos{
+    margin: 10px;
+    height: 50px;
+}
+label{
+    display: block;
+    width: 100%;
+}
+.columna{
+    display: block;
+    width: 50%;
+}
+input , textarea{
+    width: 80%;
+}
+.grupoCampos button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: blueviolet;
+}
+.producto{
+    width: 80%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.columnaProducto1{
+    width: 20%;
+}
+.columnaProducto2{
+    width: 50%;
+    text-align: center;
+}
+.columnaProducto2  h2, .columnaProducto2 p{
+    margin-top: 25px;
+   
+}
+.columnaProducto3{
+    width: 30%;
+    text-align: center;
+}
+.columnaProducto3  h2, .columnaProducto3  button{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.columnaProducto3 button{
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: red;
+
+}
+.columnaProducto1 img{
+    width: 150px;
+    height: 150px;
+    margin:25px;
+}
+.filtro{
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    text-align: end;
+}
+
+.filtro label{
+    display: inline;
+}
+.filtro input{
+    width:200px;
+}
